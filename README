@@ -1,0 +1,4 @@
+基于Scrapy框架开发的爬虫，主要用于爬取Bilibili上每个视频的信息,100w.csv为数据样例。
+爬虫的输出格式为CSV,需要预先安装Srapy库后才能使用。
+在命令行输入 Scrapy crawl Bilibili -o name.csv命令执行爬虫。
+要改变视频的爬取范围的改变需要手动修改代码（只是改一个for循环而已）
