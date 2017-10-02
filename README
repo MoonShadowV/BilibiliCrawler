@@ -1,1 +1,11 @@
-基于Scrapy框架开发的爬虫，主要用于爬取Bilibili上每个视频的信息,100w.csv为数据样例。
+
+BilibiliCrawler
+开发环境：Windows/Python2.7
+
+简述：基于Scrapy框架开发的爬虫，主要用于爬取Bilibili上每个视频的信息,100w.csv为数据样例。
+
+功能：爬取https://www.bilibili.com/下的所有视频信息，包括
+	  - 视频标题以及唯一标识符Aid
+	  - 视频简介
+	  - 视频的播放量，收藏量，评论数等热度数据
+	  - 视频的标签（Tag）
